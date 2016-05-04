@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+
+  body{width:100%;}
+  /* iPHONE 3-4 + RETINA PORTRAIT STYLES */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (max-device-height: 480px) and (orientation:portrait) {
+    /* Your adjusted CSS goes here */
+}
+
+/* iPHONE 3-4 + RETINA LANDSCAPE STYLES */
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px) and (max-device-height: 480px) and (orientation:landscape) {
+    /* Your adjusted CSS goes here */
+}
+
+  #Part1 >.cat {  width: 100%;
+                  height:800px;
+                  background-position: 45% 50%;
+                  background-attachment: fixed;
+                  background-repeat: no-repeat;
+                  -webkit-background-size: auto 70%;
+                  -moz-background-size: auto 70%;
+                  -o-background-size: auto 70%;
+                  background-size: auto 70%; }
+
+  #Part3    {  height:1000px; color: #fff; background-color: black;}
+
+  #Part3 > img.Part3Pic1
+
+            {  background-image: url("img/Part3APic.png;");
+               background-repeat: no-repeat;
+               background-size: 100%;
+               background-position: center; }
+
+  #section3 { padding-top:50px;height:3000px;color: #fff; background-color: #ff9800;}
+
+  #section4 { padding-top:50px;height:10px;color: #fff; background-color: red;}
+
+  .cat.f00 { background-image: url("img/P6-3M-FULL-FX01.png");
+             background-color: transparent; }
+
+  .cat.f01 { background-image: url("img/P6-3M-FULL-FX02.png");
+             background-color: transparent; }
+
+  .cat.f02 { background-image: url("img/P6-3M-FULL-FX03.png");
+             background-color: transparent; }
+
+  .cat.f03 { background-image: url("img/P6-3M-FULL-FX04.png");
+             background-color: transparent; }
+
+  .cat.f04 { background-image: url("img/P6-3M-FULL-FX05.png");
+             background-color: transparent; }
+
+  .cat.f05 { background-image: url("img/P6-3M-FULL-FX06.png");
+             background-color: transparent; }
+
+  .cat.f06 { background-image: url("img/P6-3M-FULL-FX07.png");
+             background-color: transparent; }
+
+  .cat.f07 { background-image: url("img/P6-3M-FULL-FX08.png");
+             background-color: transparent; }
+
+  .cat.f08 { background-image: url("img/P6-3M-FULL-FX09.png");
+             background-color: transparent; }
+
+  .cat.f09 { background-image: url("img/P6-3M-FULL-FX10.png");
+             background-color: transparent; }
+
+  .cat.f10 { background-image: url("img/P6-3M-FULL-FX11.png");
+             background-color: transparent; }
+
+  .cat.f11 { background-image: url("img/P6-3M-FULL-FX12.png");
+             background-color: transparent; }
+
+  .cat.f12 { background-image: url("img/P6-3M-FULL-FX13.png");
+             background-color: transparent; }
+
+  .cat.f13 { background-image: url("img/P6-3M-FULL-FX14.png");
+             background-color: transparent; }
+
+  .cat.f14 { background-image: url("img/P6-3M-FULL-FX15.png");
+             background-color: transparent; }
+
+  .cat.f15 { background-image: url("img/P6-3M-FULL-FX16.png");
+             background-color: transparent; }
+
+  .cat.f16 { background-image: url("img/P6-3M-FULL-FX17.png");
+             background-color: transparent; }
+
+  .cat.f17 { background-image: url("img/P6-3M-FULL-FX18.png");
+             background-color: transparent; }
+
+  .cat.f18 { background-image: url("img/P6-3M-FULL-FX19.png");
+             background-color: transparent; }
+
+  .cat.f19 { background-image: url("img/P6-3M-FULL-FX20.png");
+             background-color: transparent; }
+
+  .cat.f20 { background-image: url("img/P6-3M-FULL-FX21.png");
+             background-color: transparent; }
+
+  .cat.f21 { background-image: url("img/P6-3M-FULL-FX22.png");
+             background-color: transparent; }
+
+  .cat.f22 { background-image: url("img/P6-3M-FULL-FX23.png");
+             background-color: transparent; }
+
+  .cat.f23 { background-image: url("img/P6-3M-FULL-FX24.png");
+             background-color: transparent; }
+
+  .cat.f24 { background-image: url("img/P6-3M-FULL-FX25.png");
+             background-color: transparent; }
+
+  .cat.f25 { background-image: url("img/P6-3M-FULL-FX26.png");
+             background-color: transparent; }
+
+  .cat.f26 { background-image: url("img/P6-3M-FULL-FX27.png");
+             background-color: transparent; }
+
+  .cat.f27 { background-image: url("img/P6-3M-FULL-FX28.png");
+             background-color: transparent; }
+
+  .cat.f28 { background-image: url("img/P6-3M-FULL-FX29.png");
+             background-color: transparent; }
+
+  .cat.f29 { background-image: url("img/P6-3M-FULL-FX30.png");
+             background-color: transparent; }
+
+  .cat.f30 { background-image: url("img/P6-3M-FULL-FX31.png");
+             background-color: transparent; }
+
+  .cat.f31 { background-image: url("img/P6-3M-FULL-FX32.png");
+             background-color: transparent; }
+
+  .cat.f32 { background-image: url("img/P6-3M-FULL-FX33.png");
+             background-color: transparent; }
+
+  .cat.f33 { background-image: url("img/P6-3M-FULL-FX34.png");
+             background-color: transparent; }
+
+  .cat.f34 { background-image: url("img/P6-3M-FULL-FX35.png");
+             background-color: transparent; }
+
+  .cat.f35 { background-image: url("img/P6-3M-FULL-FX36.png");
+             background-color: transparent; }
+
+  .cat.f36 { background-image: url("img/P6-3M-FULL-FX37.png");
+             background-color: transparent; }
+
+  .cat.f37 { background-image: url("img/P6-3M-FULL-FX38.png");
+             background-color: transparent; }
+
+  .cat.f38 { background-image: url("img/P6-3M-FULL-FX39.png");
+             background-color: transparent; }
+
+  .cat.f39 { background-image: url("img/P6-3M-FULL-FX40.png");
+             background-color: transparent; }
+
+  .cat.f40 { background-image: url("img/P6-3M-FULL-FX41.png");
+             background-color: transparent; }
+
+  .cat.f41 { background-image: url("img/P6-3M-FULL-FX42.png");
+             background-color: transparent; }
+
+  .cat.f42 { background-image: url("img/P6-3M-FULL-FX43.png");
+             background-color: transparent; }
+
+  .cat.f43 { background-image: url("img/P6-3M-FULL-FX44.png");
+             background-color: transparent; }
+
+  .cat.f44 { background-image: url("img/P6-3M-FULL-FX45.png");
+             background-color: transparent; }
+
+  .cat.f45 { background-image: url("img/P6-3M-FULL-FX46.png");
+             background-color: transparent; }
+
+  .cat.f46 { background-image: url("img/P6-3M-FULL-FX47.png");
+             background-color: transparent; }
+
+  .cat.f47 { background-image: url("img/P6-3M-FULL-FX48.png");
+             background-color: transparent; }
+
+  .cat.f48 { background-image: url("img/P6-3M-FULL-FX49.png");
+             background-color: transparent; }
+
+  .cat.f49 { background-image: url("img/P6-3M-FULL-FX50.png");
+             background-color: transparent; }
+
+  .cat.f50 { background-image: url("img/P6-3M-FULL-FX51.png");
+             background-color: transparent; }
+
+  .cat.f51 { background-image: url("img/P6-3M-FULL-FX52.png");
+             background-color: transparent; }
+
+  .cat.f52 { background-image: url("img/P6-3M-FULL-FX53.png");
+             background-color: transparent; }
+
+  .cat.f53 { background-image: url("img/P6-3M-FULL-FX54.png");
+             background-color: transparent; }
+
+  .cat.f54 { background-image: url("img/P6-3M-FULL-FX55.png");
+             background-color: transparent; }
+
+  .cat.f55 { background-image: url("img/P6-3M-FULL-FX56.png");
+             background-color: transparent; }
+
+  .cat.f56 { background-image: url("img/P6-3M-FULL-FX57.png");
+             background-color: transparent; }
+
+  .cat.f57 { background-image: url("img/P6-3M-FULL-FX57.png");
+             background-color: transparent; }
+
+  .cat.f58 { background-image: url("img/P6-3M-FULL-FX58.png");
+             background-color: transparent; }
+
+  .cat.f59 { background-image: url("img/P6-3M-FULL-FX59.png");
+             background-color: transparent; }
+
+  .cat.f60 { background-image: url("img/P6-3M-FULL-FX60.png");
+             background-color: transparent; }
+
+  .cat.f61 { background-image: url("img/P6-3M-FULL-FX61.png");
+             background-color: transparent; }
+
+  .cat.f62 { background-image: url("img/P6-3M-FULL-FX62.png");
+             background-color: transparent; }
+
+  .cat.f63 { background-image: url("img/P6-3M-FULL-FX63.png");
+             background-color: transparent; }
+
+  .cat.f64 { background-image: url("img/P6-3M-FULL-FX64.png");
+             background-color: transparent; }
+
+  .cat.f65 { background-image: url("img/P6-3M-FULL-FX65.png");
+             background-color: transparent; }
+
+  .cat.f66 { background-image: url("img/P6-3M-FULL-FX66.png");
+             background-color: transparent; }
+
+  .cat.f67 { background-image: url("img/P6-3M-FULL-FX67.png");
+             background-color: transparent; }
+
+  .cat.f68 { background-image: url("img/P6-3M-FULL-FX68.png");
+             background-color: transparent; }
+
+  .cat.f69 { background-image: url("img/P6-3M-FULL-FX69.png");
+             background-color: transparent; }
+
+  .cat.f70 { background-image: url("img/P6-3M-FULL-FX70.png");
+             background-color: transparent; }
+
+  .cat.f71 { background-image: url("img/P6-3M-FULL-FX71.png");
+             background-color: transparent; }
+
+  .cat.f72 { background-image: url("img/P6-3M-FULL-FX72.png");
+             background-color: transparent; }
+
+  .cat.f73 { background-image: url("img/P6-3M-FULL-FX73.png");
+             background-color: transparent; }
+
+  .cat.f74 { background-image: url("img/P6-3M-FULL-FX74.png");
+             background-color: transparent; }
+
+  .cat.f75 { background-image: url("img/P6-3M-FULL-FX75.png");
+             background-color: transparent; }
+
+  .cat.f76 { background-image: url("img/P6-3M-FULL-FX76.png");
+             background-color: transparent; }
+
+  .cat.f77 { background-image: url("img/P6-3M-FULL-FX77.png");
+             background-color: transparent; }
+
+  .cat.f78 { background-image: url("img/P6-3M-FULL-FX78.png");
+             background-color: transparent; }
+
+  .cat.f79 { background-image: url("img/P6-3M-FULL-FX79.png");
+             background-color: transparent; }
+
+  .cat.f80 { background-image: url("img/P6-3M-FULL-FX80.png");
+             background-color: transparent; }
+
+  .cat.f81 { background-image: url("img/P6-3M-FULL-FX81.png");
+             background-color: transparent; }
+
+  .cat.f82 { background-image: url("img/P6-3M-FULL-FX82.png");
+             background-color: transparent; }
+
+  .cat.f83 { background-image: url("img/P6-3M-FULL-FX83.png");
+             background-color: transparent; }
+
+  .cat.f84 { background-image: url("img/P6-3M-FULL-FX84.png");
+             background-color: transparent; }
+
+  .cat.f85 { background-image: url("img/P6-3M-FULL-FX85.png");
+             background-color: transparent; }
+
+  .cat.f86 { background-image: url("img/P6-3M-FULL-FX86.png");
+             background-color: transparent; }
+
+  .cat.f87 { background-image: url("img/P6-3M-FULL-FX87.png");
+             background-color: transparent; }
+
+  .cat.f88 { background-image: url("img/P6-3M-FULL-FX88.png");
+             background-color: transparent; }
+
+  .cat.f89 { background-image: url("img/P6-3M-FULL-FX89.png");
+             background-color: transparent; }
+
+  .cat.f90 { background-image: url("img/P6-3M-FULL-FX89.png");
+             background-color: transparent; }
+
+  .cat.f91 { background-image: url("img/P6-3M-FULL-FX9000.png");
+             background-color: transparent; }
+
+  .cat.f92 { background-image: url("img/P6-3M-FULL-FX9001.png");
+             background-color: transparent; }
+
+  .cat.f93 { background-image: url("img/P6-3M-FULL-FX9002.png");
+             background-color: transparent; }
+
+  .cat.f94 { background-image: url("img/P6-3M-FULL-FX9003.png");
+             background-color: transparent; }
+
+  .cat.f95 { background-image: url("img/P6-3M-FULL-FX9004.png");
+             background-color: transparent; }
+
+  .cat.f96 { background-image: url("img/P6-3M-FULL-FX9005.png");
+             background-color: transparent; }
+
+  .cat.f97 { background-image: url("img/P6-3M-FULL-FX9006.png");
+             background-color: transparent; }
+
+  .cat.f98 { background-image: url("img/P6-3M-FULL-FX9007.png");
+             background-color: transparent; }
+
+  .cat.f99 { background-image: url("img/P6-3M-FULL-FX9007.png");
+             background-color: transparent; }
+
+ .cat.f100 { background-image: url("img/P6-3M-FULL-FX9008.png");
+             background-color: transparent; }
+
+ .cat.f101 { background-image: url("img/P6-3M-FULL-FX9009.png");
+             background-color: transparent; }
+
+ .cat.f102 { background-image: url("img/P6-3M-FULL-FX9010.png");
+             background-color: transparent; }
+
+ .cat.f103 { background-image: url("img/P6-3M-FULL-FX9011.png");
+             background-color: transparent; }
+
+ .cat.f104 { background-image: url("img/P6-3M-FULL-FX9012.png");
+             background-color: transparent; }
+
+ .cat.f105 { background-image: url("img/P6-3M-FULL-FX9013.png");
+             background-color: transparent; }
+
+ .cat.f106 { background-image: url("img/P6-3M-FULL-FX9014.png");
+             background-color: transparent; }
+
+ .cat.f107 { background-image: url("img/P6-3M-FULL-FX9015.png");
+             background-color: transparent; }
+
+  </style>
+</head>
+<body>
+
+<p1 style="text-align: center; margin-top:100px; left: 0; right:0; margin: center;position: absolute; font-size: 2.15vmax;  font-weight:200;">卓越功能 ∙ 潔淨之選</p1>
+<p2 style="text-align: center; margin-top:170px; left: 0; right:0; margin: center;position: absolute; font-size: 2.25vmax;  font-weight:200;">3M™濾水系統</p2>
+
+<div id="myNavbar"  style="text-align:  center;  margin-top: 1000px; left: 0; right:0; margin: center;position: absolute;">
+<a href="#Part2" >
+<h1 style="font-size: 30px; font-weight:100;">探索更多</h1>
+<h2 style="margin-top: -10px;font-size: 60px; font-weight:100;">   ▾   </h2>
+</a>
+</div>
+
+<div id="Part1">
+<div class="cat f00"></div>
+<div class="cat f01"></div>
+<div class="cat f02"></div>
+<div class="cat f03"></div>
+<div class="cat f04"></div>
+<div class="cat f05"></div>
+<div class="cat f06"></div>
+<div class="cat f07"></div>
+<div class="cat f08"></div>
+<div class="cat f09"></div>
+<div class="cat f10"></div>
+<div class="cat f11"></div>
+<div class="cat f12"></div>
+<div class="cat f13"></div>
+<div class="cat f14"></div>
+<div class="cat f15"></div>
+<div class="cat f16"></div>
+<div class="cat f17"></div>
+<div class="cat f18"></div>
+<div class="cat f19"></div>
+<div class="cat f20"></div>
+<div class="cat f21"></div>
+<div class="cat f22"></div>
+<div class="cat f23"></div>
+<div class="cat f24"></div>
+<div class="cat f25"></div>
+<div class="cat f26"></div>
+<div class="cat f27"></div>
+<div class="cat f28"></div>
+<div class="cat f29"></div>
+<div class="cat f30"></div>
+<div class="cat f31"></div>
+<div class="cat f32"></div>
+<div class="cat f33"></div>
+<div class="cat f34"></div>
+<div class="cat f35"></div>
+<div class="cat f36"></div>
+<div class="cat f37"></div>
+<div class="cat f38"></div>
+<div class="cat f39"></div>
+<div class="cat f40"></div>
+<div class="cat f41"></div>
+<div class="cat f42"></div>
+<div class="cat f43"></div>
+<div class="cat f44"></div>
+<div class="cat f45"></div>
+<div class="cat f46"></div>
+<div class="cat f47"></div>
+<div class="cat f48"></div>
+<div class="cat f49"></div>
+<div class="cat f50"></div>
+<div class="cat f51"></div>
+<div class="cat f52"></div>
+<div class="cat f53"></div>
+<div class="cat f54"></div>
+<div class="cat f55"></div>
+<div class="cat f56"></div>
+<div class="cat f57"></div>
+<div class="cat f58"></div>
+<div class="cat f59"></div>
+<div class="cat f60"></div>
+<div class="cat f61"></div>
+<div class="cat f62"></div>
+<div class="cat f63"></div>
+<div class="cat f64"></div>
+<div class="cat f65"></div>
+<div class="cat f66"></div>
+<div class="cat f67"></div>
+<div class="cat f68"></div>
+<div class="cat f69"></div>
+<div class="cat f70"></div>
+<div class="cat f71"></div>
+<div class="cat f72"></div>
+<div class="cat f73"></div>
+<div class="cat f74"></div>
+<div class="cat f75"></div>
+<div class="cat f76"></div>
+<div class="cat f77"></div>
+<div class="cat f78"></div>
+<div class="cat f79"></div>
+<div class="cat f80"></div>
+<div class="cat f81"></div>
+<div class="cat f82"></div>
+<div class="cat f83"></div>
+<div class="cat f84"></div>
+<div class="cat f85"></div>
+<div class="cat f86"></div>
+<div class="cat f87"></div>
+<div class="cat f88"></div>
+<div class="cat f89"></div>
+<div class="cat f90"></div>
+<div class="cat f91"></div>
+<div class="cat f92"></div>
+<div class="cat f93"></div>
+<div class="cat f94"></div>
+<div class="cat f95"></div>
+<div class="cat f96"></div>
+<div class="cat f97"></div>
+<div class="cat f98"></div>
+<div class="cat f99"></div>
+<div class="cat f100"></div>
+<div class="cat f101"></div>
+<div class="cat f102"></div>
+<div class="cat f102"></div>
+<div class="cat f103"></div>
+<div class="cat f104"></div>
+<div class="cat f105"></div>
+<div class="cat f106"></div>
+<div class="cat f107"></div>
+<div class="cat f107"></div>
+<div class="cat f107"></div>
+<div class="cat f107"></div>
+<div class="cat f107"></div>
+<div class="cat f107"></div>
+</div>
+
+<div id="Part2" style="margin-top:-2500px">
+<div id='Part2AA' class="container-fluid" alt>
+<text>
+<p style="font-size: 30px;     font-weight:   300;
+          color:  #333333;     margin-top:  100px;
+          letter-spacing: 5px; margin-left:   46%;">
+
+          專業認證,品質不容置疑
+<p> <img class="Part2AAPic"
+           src="img/Part2AAPic.png"
+         style="width: 50%; max-width: 30rem; margin-top: 10px; margin-left: 46%;">
+<p       style="font-size: 15px;   font-weight:200;      color: #333333;        margin-top:  -20px;  line-height: 2.0;
+                max-width: 350px;  padding-right: 10px;  padding-bottom: 25px;  margin-left: 46%"               alt>
+
+          我們明白你對水質及安全的嚴格要求,所以我們為你提供的3M 濾水系統,
+          均獲得美國 國家衛生基金會(NSF International)
+          標準 42「口感品質認證」以及 標準53「衛生品質認證」,
+          並採用美國食物及藥物管理局(FDA)CFR-21認可之安全物料製造。
+</p></text></div>
+
+<div class="line1" style="margin-top: 50px; width: 50%; margin-left: 46%; margin-right: 10%; border: 0.5px solid #cccccc;"></div>
+
+<div id='Part2A' alt>
+<text>
+<p       style="font-size: 30px; font-weight:300; color: #333333; margin-top: 100px; letter-spacing: 5px; margin-left: 46%;">卓越的過濾功能
+
+<p> <img class="Part2APic"
+           src="img/Part2APic.png"
+         style="width: 50%; max-width: 30rem; margin-top: 10px; margin-left: 46%;">
+
+<p       style="font-size: 15px;   font-weight:200;      color: #333333;        margin-top: 20px;  line-height: 2.0;
+                max-width: 350px;  padding-right: 10px;  padding-bottom: 25px;  margin-left: 46%;"               alt>
+
+          3MTM 濾水系統經過NSF的嚴格測試,有效去除
+          多種污染,包括:重金屬鉛(Pb)、鐵鏽、隱孢子蟲、
+          氯氣及異味等,甚至過濾「可致癌揮發性有機化 學物 」(VOCs)
+          ,為你帶來極致潔淨的食水。
+</p></text></div>
+
+<div class="line1" style="margin-top: 50px; width: 50%; margin-left: 46%; margin-right: 10%; border: 0.5px solid #cccccc;"></div>
+
+<div id='Part2B' alt>
+<text>
+<p        style="font-size: 30px; font-weight:300; color: #333333; margin-top:  50px; letter-spacing: 5px; margin-left: 46%;">活性碳磚技術
+<p        style="font-size: 20px; font-weight:300; color: #333333; margin-top:  0px; letter-spacing: 7px; margin-left: 46%;">Pre-Activated Carbon Block
+<p> <img  class="Part2BPic"
+            src="img/Part2BPic.png"
+          style="width: 50%; max-width: 30rem; margin-top: 10px; margin-left: 46%;">
+
+<p        style="font-size: 15px;   font-weight:200;      color: #333333;        margin-top: 0px;  line-height: 2.0;
+                 max-width: 350px;  padding-right: 10px;  padding-bottom: 25px;  margin-left: 46%"                alt>
+
+          3M的活性碳磚濾芯密度極高,過濾精密度高 達0.5微米。
+          活性碳磚技術可保證每一滴進入 濾芯的水都經過活性碳的除氯程序,
+          確保食水 絕無異味而同時過濾重金屬。
+</p></text></div>
+
+<div class="line1" style="margin-top: 50px; width: 50%; margin-left: 46%; margin-right: 10%; border: 0.5px solid #cccccc;"></div>
+
+<div id='Part2C' alt>
+<text>
+<p> <img class="Part2CPic"  src="img/Part2CPic.png" style="width: 50%; max-width: 30rem; margin-top: 55px; margin-left: 46%;">
+<p style="font-size: 15px;   font-weight:200;      color: #333333;        margin-top: 20px;      line-height: 2.0;
+          max-width: 500px;  padding-right: 10px;  padding-bottom: 25px;  margin-left: 46%" alt>
+
+          美國 國家衛生基金會(NSF International)創立於1944年, 是獨立的第三方機構,
+          多年來不斷為食水品質、食物安全、可持續發展等項目進行測試及認證,至今已逾70年歷史。
+
+          <p style="font-size: 15px;   font-weight:200;      color: #333333;        margin-top: 0px;      line-height: 2.0;
+                    max-width: 500px;  padding-right: 10px;  padding-bottom: 100px;  margin-left: 46%" alt>
+
+                    NSF 所建立的檢測標準,不少都被美國國家標準協會 ( ANSI )納入國家標準,
+                    發展等項目進行測試及認證,至今已逾70年歷史。 NSF 所建立的檢測標準,不少都被美國國家標準協會
+                    ( ANSI )納入國家標準,所以不只在美國具有權威地位, NSF在國際上也備受肯定及尊崇。
+</p></text></div>
+
+<div  id="Part3"  style="margin-top: 0px;">
+<p style="font-size:50px; color: black;"alt>X</p>
+<img class="Part3Pic1" src="img/transparent box.png" style="width: 100%; max-width:700px; display: block; margin-left: auto; margin-right: auto;">
+<p style="font-size:   25px;  font-weight:200;       color: white; margin-top:   -10px;  letter-spacing: 5px; text-align: center;">漸進式粒子分離過濾技術
+<p style="font-size:   15px;  font-weight:100;       color: white; margin-top:   20px;  letter-spacing: 7px; text-align: center;">Progressive Particle Separation
+<p style="font-size:   12px;  font-weight:100;       color: white; margin-top:   20px;  text-align: center;  line-height: 2.0;
+          margin-left: auto;  margin-right: auto; "alt>
+漸進式粒子分離過濾技術有效過濾水中雜質及 有害物質,如隱孢子蟲。
+<p style="font-size:  12px;  font-weight:100;   color: white; margin-top:  5px; text-align: center;  line-height: 2.0; margin-left: auto;  margin-right: auto; "alt>
+此精密過濾技術不單提升 過濾效能,而且可縮小濾芯的體積,外觀更覺簡潔。
+</p></div>
+
+<div id="myNavbar" style="text-align: center; margin-top:0px; left: 0; right:0; margin: center; ">
+<a href="#section4">Section 4</a>
+</div>
+
+<div id="section3" class="container-fluid">
+<h1>Section 3</h1>
+<p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+</div>
+
+<div id="section4" class="container-fluid">
+<h1>Section 3</h1>
+<p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+</div>
+
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 1500, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+});
+</script>
+
+</body>
+</html>
